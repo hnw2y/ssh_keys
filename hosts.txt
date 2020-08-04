@@ -1,2 +1,0 @@
-jupyterlab1
-jupyterlab2
