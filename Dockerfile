@@ -45,3 +45,5 @@ RUN chown -R jovyan /home/jovyan/.ssh
 
 # CSCI 3130
 USER $NB_UID
+
+USER root
