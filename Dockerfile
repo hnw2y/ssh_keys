@@ -17,7 +17,7 @@ RUN apt-get update && \
 # Uses sudo so container needs to be started as root
 # and also needs to have environment variable GRANT_SUDO set to yes
 # Otherwise, this will simply fail to start...
-# COPY start_ssh_server.sh /usr/local/bin/before-notebook.d/start_ssh_server.sh
+COPY start_ssh_server.sh /usr/local/bin/before-notebook.d/start_ssh_server.sh
 
 # Setup ssh directory
 RUN mkdir /home/jovyan/.ssh
